@@ -1,0 +1,143 @@
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #ffb300c7;
+  border-radius: 20px;
+}
+
+.hero-left {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.hero-offer {
+  color: green;
+  font-weight: bold;
+}
+
+.hero-left h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.hero-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtext span {
+  color: red;
+  font-weight: 900;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.search-bar button {
+  background: #1d3ff5;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.hero-tags span {
+  margin-right: 1rem;
+  color: #106E8A;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  font-weight: 500;
+}
+
+.hero-right {
+  position: relative;
+}
+
+.hero-right img {
+  border-radius: 20px;
+  height: 60vh;
+  width: auto;
+}
+
+.badge-course, .badge-stats {
+  position: absolute;
+  background: linear-gradient(to right, rgb(252, 255, 199), #ffb300c7);
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.badge-course {
+  top: 20px;
+  left: -40px;
+}
+
+.badge-stats {
+  top: 20px;
+  right: -40px;
+}
+
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .hero-left {
+    padding-right: 0;
+  }
+
+  .hero-left h1 {
+    font-size: 2rem;
+  }
+
+  .hero-subtext {
+    font-size: 1rem;
+  }
+
+  .hero-tags span {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+
+  .hero-right {
+    margin-top: 1.5rem;
+  }
+
+  .hero-right img {
+    height: auto;
+    width: 100%;
+    max-height: 300px;
+  }
+
+  .badge-course, .badge-stats {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    display: inline-block;
+    margin: 0.5rem;
+  }
+}
+
+

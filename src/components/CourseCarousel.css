@@ -1,0 +1,94 @@
+.carousel-wrapper {
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.carousel-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.explore-link {
+  color: #6C63FF;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.carousel-slider {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: rgba(0, 136, 255, 0.153);
+  padding: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Force internal slick track container to clip cards */
+.carousel-slider .slick-list {
+  overflow: hidden !important;
+}
+
+.course-card {
+  background: #ffb300c7;
+  border-radius: 1rem;
+  padding: 2rem;
+  position: relative;
+  max-width: 25vw;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.image-wrapper {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.know-more {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #1b28e6;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 100px;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.course-card h3 {
+  font-size: 1.1rem;
+  margin-top: 0.8rem;
+}
+
+.course-card p {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .carousel-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .course-card {
+    min-width: 50vw;
+  }
+}
+
