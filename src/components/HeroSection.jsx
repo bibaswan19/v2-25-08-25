@@ -1,31 +1,26 @@
 import React from 'react';
 import './HeroSection.css';
-import sampleImage from '../assets/heroimage.jpg'; // Use your image path
+import sampleImage from '../assets/heroimage.jpg';
+
+// Importing icons
+import { FaChalkboardTeacher, FaUsers, FaChartLine, FaBookOpen, FaUserTie } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
     <div className="hero-container" id="home">
       <div className="hero-left">
-{/*         <p className="hero-offer">✅ Get 30% off on first enroll</p> */}
         <h1>YOUR SUCCESS, OUR GOAL</h1>
         <p className="hero-subtext">
           There’s no shortcut to success, but there’s always the right guidance – find it at <span>Bibaswan</span>.
         </p>
-        
-        {/* <div className="search-bar">
-          <input type="text" placeholder="search courses..." />
-          <button>🔍</button>
-        </div> */}
+
+        {/* Tags with icons */}
         <div className="hero-tags">
-          <span>✔️ Expert Faculty Mentorship </span>
-          <br/>
-          <span>✔️ Friendly & Supportive Community</span>
-          <br/>
-          <span>✔️ Personal Performance Monitoring</span>
-          <br/>
-          <span>✔️ Daily MCQs + PYQs</span>
-          <br/>
-          <span>✔️ 1:1 Progress Guidance</span>
+          <p><FaChalkboardTeacher className="hero-icon" /> Expert Faculty Mentorship</p>
+          <p><FaUsers className="hero-icon" /> Friendly & Supportive Community</p>
+          <p><FaChartLine className="hero-icon" /> Personal Performance Monitoring</p>
+          <p><FaBookOpen className="hero-icon" /> Daily MCQs + PYQs</p>
+          <p><FaUserTie className="hero-icon" /> 1:1 Progress Guidance</p>
         </div>
       </div>
 
@@ -38,5 +33,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-

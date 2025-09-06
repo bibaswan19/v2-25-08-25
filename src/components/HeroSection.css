@@ -66,6 +66,33 @@
   font-weight: 500;
 }
 
+.hero-tags {
+  margin-top: 1rem;
+}
+
+.hero-tags p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #106E8A;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+.hero-tags .hero-icon {
+  color: #4228d9; /* Accent color for icons */
+  font-size: 3.5rem;
+  transition: all 0.3s ease;
+}
+
+.hero-tags p:hover .hero-icon {
+  color: #15003a;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
 .hero-right {
   position: relative;
 }
@@ -119,7 +146,10 @@
     margin-bottom: 0.5rem;
     text-align: left;
   }
-
+  .hero-tags .hero-icon {
+    color: #4228d9; /* Accent color for icons */
+    font-size: 2rem;
+  }
   .hero-right {
     margin-top: 1.5rem;
   }
