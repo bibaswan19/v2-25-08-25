@@ -20,6 +20,7 @@ import NotificationAdmin from "./NotificationAdmin"; // ✅ New
 import StudyMaterialAdmin from "./StudyMaterialAdmin"; // ✅ New
 import LoginPage from "./LoginPage";
 import WhatsAppButton from "./components/WhatsAppButton";
+import LeftLinks from "./components/LeftLinks";
 
 import "./App.css";
 
@@ -38,6 +39,7 @@ const Home = ({ onOpenPopup }) => (
       <h2>Blogs & Videos.</h2>
     </div>
     <BlogSection />
+    <LeftLinks/>
     <WhatsAppButton />
     <Chatbot />
     <Contact />
