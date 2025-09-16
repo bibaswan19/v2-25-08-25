@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import "./HeroSection.css";
+import { FaChalkboardTeacher, FaUsers, FaChartLine, FaBookOpen, FaUserTie } from "react-icons/fa";
 import sampleImage1 from "../assets/1.png";
 import sampleImage2 from "../assets/2.png";
 import sampleImage3 from "../assets/3.png";
@@ -34,11 +35,11 @@ const HeroSection = () => {
         </p>
 
         <div className="hero-tags">
-          <p><span className="hero-icon">👨‍🏫</span> Expert Faculty Mentorship</p>
-          <p><span className="hero-icon">👥</span> Friendly & Supportive Community</p>
-          <p><span className="hero-icon">📈</span> Personal Performance Monitoring</p>
-          <p><span className="hero-icon">📖</span> Daily MCQs + PYQs</p>
-          <p><span className="hero-icon">🎯</span> 1:1 Progress Guidance</p>
+          <p><FaChalkboardTeacher className="hero-icon" /> Expert Faculty Mentorship</p>
+          <p><FaUsers className="hero-icon" /> Friendly & Supportive Community</p>
+          <p><FaChartLine className="hero-icon" /> Personal Performance Monitoring</p>
+          <p><FaBookOpen className="hero-icon" /> Daily MCQs + PYQs</p>
+          <p><FaUserTie className="hero-icon" /> 1:1 Progress Guidance</p>
         </div>
       </div>
 
@@ -63,3 +64,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
