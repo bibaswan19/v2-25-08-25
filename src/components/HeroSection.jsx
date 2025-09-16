@@ -1,7 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
 import "./HeroSection.css";
-import { FaChalkboardTeacher, FaUsers, FaChartLine, FaBookOpen, FaUserTie } from "react-icons/fa";
+import {
+  FaChalkboardTeacher,
+  FaUsers,
+  FaChartLine,
+  FaBookOpen,
+  FaUserTie,
+} from "react-icons/fa";
 import sampleImage1 from "../assets/1.png";
 import sampleImage2 from "../assets/2.png";
 import sampleImage3 from "../assets/3.png";
@@ -28,18 +34,35 @@ const HeroSection = () => {
     <div className="hero-container" id="home">
       {/* Left side */}
       <div className="hero-left">
-        <h1>YOUR SUCCESS, OUR GOAL</h1>
+        <h1
+          className="typewriter"
+          style={{ "--characters": "22" }}  // match your text length
+        >
+          YOUR SUCCESS, OUR GOAL.
+        </h1>
         <p className="hero-subtext">
-          There’s no shortcut to success, but there’s always the right guidance – 
-          find it at <span>Bibaswan</span>.
+          There’s no shortcut to success, but there’s always the right guidance
+          – find it at <span>Bibaswan</span>.
         </p>
 
         <div className="hero-tags">
-          <p><FaChalkboardTeacher className="hero-icon" /> Expert Faculty Mentorship</p>
-          <p><FaUsers className="hero-icon" /> Friendly & Supportive Community</p>
-          <p><FaChartLine className="hero-icon" /> Personal Performance Monitoring</p>
-          <p><FaBookOpen className="hero-icon" /> Daily MCQs + PYQs</p>
-          <p><FaUserTie className="hero-icon" /> 1:1 Progress Guidance</p>
+          <p>
+            <FaChalkboardTeacher className="hero-icon" /> Expert Faculty
+            Mentorship
+          </p>
+          <p>
+            <FaUsers className="hero-icon" /> Friendly & Supportive Community
+          </p>
+          <p>
+            <FaChartLine className="hero-icon" /> Personal Performance
+            Monitoring
+          </p>
+          <p>
+            <FaBookOpen className="hero-icon" /> Daily MCQs + PYQs
+          </p>
+          <p>
+            <FaUserTie className="hero-icon" /> 1:1 Progress Guidance
+          </p>
         </div>
       </div>
 
@@ -47,14 +70,30 @@ const HeroSection = () => {
       <div className="hero-right">
         <div className="hero-slider-wrapper">
           <Slider {...settings}>
-            <div><img src={sampleImage1} alt="Slide 1" /></div>
-            <div><img src={sampleImage2} alt="Slide 2" /></div>
-            <div><img src={sampleImage3} alt="Slide 3" /></div>
-            <div><img src={sampleImage4} alt="Slide 4" /></div>
-            <div><img src={sampleImage5} alt="Slide 5" /></div>
-            <div><img src={sampleImage6} alt="Slide 6" /></div>
-            <div><img src={sampleImage7} alt="Slide 7" /></div>
-            <div><img src={sampleImage8} alt="Slide 8" /></div>
+            <div>
+              <img src={sampleImage1} alt="Slide 1" />
+            </div>
+            <div>
+              <img src={sampleImage2} alt="Slide 2" />
+            </div>
+            <div>
+              <img src={sampleImage3} alt="Slide 3" />
+            </div>
+            <div>
+              <img src={sampleImage4} alt="Slide 4" />
+            </div>
+            <div>
+              <img src={sampleImage5} alt="Slide 5" />
+            </div>
+            <div>
+              <img src={sampleImage6} alt="Slide 6" />
+            </div>
+            <div>
+              <img src={sampleImage7} alt="Slide 7" />
+            </div>
+            <div>
+              <img src={sampleImage8} alt="Slide 8" />
+            </div>
           </Slider>
         </div>
         <div className="badge-course">Book a free demo today</div>
@@ -64,4 +103,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
