@@ -65,7 +65,7 @@
 }
 
 .hero-subtext span {
-  color: red;
+  color:#ffcf10;
   font-size: 1.2rem;
   font-weight: 900;
 }
@@ -147,7 +147,7 @@
   }
 
   .hero-left h1 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   .hero-subtext {
@@ -161,7 +161,8 @@
   }
 
   .hero-tags p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    white-space: nowrap;
     line-height: 2rem;
   }
 
@@ -188,4 +189,3 @@
     margin: 0.5rem;
   }
 }
-
