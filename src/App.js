@@ -28,7 +28,7 @@ const Home = ({ onOpenPopup }) => (
   <>
     <NavBar onOpenPopup={onOpenPopup} />
     <NoticeSection />
-    <HeroSection />
+    <HeroSection onOpenPopup={onOpenPopup} />
     <AboutUs />
     <PopularCourses onOpenPopup={onOpenPopup} />
     <div className="gallery-header" id="testimonials">
