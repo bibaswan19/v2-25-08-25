@@ -24,56 +24,56 @@ const blogData = [
   },
   {
     id: 3,
-    title: "Success Story – Never Give Up",
+    title: "One Course, Triple Opportunity – Crack SSC, Railway & Bank with Bibaswan!",
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/nFCqShOczgM/maxresdefault.jpg",
     excerpt:
-      "One Course, Triple Opportunity – Crack SSC, Railway & Bank with Bibaswan!",
+      "An inspiring success story to remind you that perseverance always pays off.",
     link: "https://youtube.com/shorts/nFCqShOczgM?si=JV4OZXHAkrHT6UTI",
   },
   {
     id: 4,
-    title: "Time Management for UPSC Preparation",
+    title: "Target WBCS with Precision – Your Success, Our Mission at Bibaswan!",
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/35ET1gT1mGo/maxresdefault.jpg",
     excerpt:
-      "Target WBCS with Precision – Your Success, Our Mission at Bibaswan!",
+      "Learn how to manage your time effectively during UPSC preparation.",
     link: "https://youtube.com/shorts/35ET1gT1mGo?si=J6oaEoI_RiSShb7l",
   },
   {
     id: 5,
-    title: "Daily Motivation for Competitive Exams",
+    title: "Your NDA/CDS Journey Starts Here – Discipline, Dedication, Defence!",
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/Ocn5tRIr1uk/maxresdefault.jpg",
     excerpt:
-      "Your NDA/CDS Journey Starts Here – Discipline, Dedication, Defence!",
+      "Daily motivation to keep you consistent and focused on your exam goals.",
     link: "https://youtube.com/shorts/Ocn5tRIr1uk?si=TWk0nZtS7tqEvyq7",
   },
   {
     id: 6,
-    title: "Push Your Limits – Stay Consistent",
+    title: "Learn Anytime, Succeed Anywhere – Bibaswan’s Online Course at Your Fingertips!",
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/1XPt9NY-SP4/maxresdefault.jpg",
     excerpt:
-      "Learn Anytime, Succeed Anywhere – Bibaswan’s Online Course at Your Fingertips!",
+      "A reminder that success comes to those who push their limits every day.",
     link: "https://youtube.com/shorts/1XPt9NY-SP4?si=ayQjTtjHaSCawN64",
   },
   {
     id: 7,
-    title: "Powerful Motivation for UPSC Students",
+    title: "Crack CAT with Confidence – Shape Your IIM Dream at Bibaswan!",
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/X0n6-UAgANE/maxresdefault.jpg",
     excerpt:
-      "Crack CAT with Confidence – Shape Your IIM Dream at Bibaswan!",
+      "Powerful motivational words to boost your energy and focus.",
     link: "https://youtube.com/shorts/X0n6-UAgANE?si=XIvbyRN2rFPVBO86",
   },
   {
     id: 8,
-    title: "Discipline – The Key to Cracking Exams",
+    title: "Crack CLAT with Clarity – Step Into Your Law Career with Bibaswan!",
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/QctU9SDnYt4/maxresdefault.jpg",
     excerpt:
-      "Crack CLAT with Clarity – Step Into Your Law Career with Bibaswan!",
+      "Discipline is the foundation of success in any competitive examination.",
     link: "https://youtube.com/shorts/QctU9SDnYt4?si=6IRFb3XVcf_pibj0",
   },
 ];
