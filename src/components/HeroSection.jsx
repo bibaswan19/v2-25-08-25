@@ -17,7 +17,7 @@ import sampleImage6 from "../assets/6.png";
 import sampleImage7 from "../assets/7.png";
 import sampleImage8 from "../assets/8.png";
 
-const HeroSection = () => {
+const HeroSection = ({ onOpenPopup }) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -96,7 +96,7 @@ const HeroSection = () => {
             </div>
           </Slider>
         </div>
-        <div className="badge-course">Book a free demo today</div>
+        <button className="badge-course" onClick={() => onOpenPopup && onOpenPopup()}>Book a free demo today</button>
       </div>
     </div>
   );
