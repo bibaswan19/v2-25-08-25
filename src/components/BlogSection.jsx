@@ -28,7 +28,7 @@ const blogData = [
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/nFCqShOczgM/maxresdefault.jpg",
     excerpt:
-      "An inspiring success story to remind you that perseverance always pays off.",
+      "One Course, Triple Opportunity – Crack SSC, Railway & Bank with Bibaswan!",
     link: "https://youtube.com/shorts/nFCqShOczgM?si=JV4OZXHAkrHT6UTI",
   },
   {
@@ -37,7 +37,7 @@ const blogData = [
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/35ET1gT1mGo/maxresdefault.jpg",
     excerpt:
-      "Learn how to manage your time effectively during UPSC preparation.",
+      "Target WBCS with Precision – Your Success, Our Mission at Bibaswan!",
     link: "https://youtube.com/shorts/35ET1gT1mGo?si=J6oaEoI_RiSShb7l",
   },
   {
@@ -46,7 +46,7 @@ const blogData = [
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/Ocn5tRIr1uk/maxresdefault.jpg",
     excerpt:
-      "Daily motivation to keep you consistent and focused on your exam goals.",
+      "Your NDA/CDS Journey Starts Here – Discipline, Dedication, Defence!",
     link: "https://youtube.com/shorts/Ocn5tRIr1uk?si=TWk0nZtS7tqEvyq7",
   },
   {
@@ -55,7 +55,7 @@ const blogData = [
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/1XPt9NY-SP4/maxresdefault.jpg",
     excerpt:
-      "A reminder that success comes to those who push their limits every day.",
+      "Learn Anytime, Succeed Anywhere – Bibaswan’s Online Course at Your Fingertips!",
     link: "https://youtube.com/shorts/1XPt9NY-SP4?si=ayQjTtjHaSCawN64",
   },
   {
@@ -64,7 +64,7 @@ const blogData = [
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/X0n6-UAgANE/maxresdefault.jpg",
     excerpt:
-      "Powerful motivational words to boost your energy and focus.",
+      "Crack CAT with Confidence – Shape Your IIM Dream at Bibaswan!",
     link: "https://youtube.com/shorts/X0n6-UAgANE?si=XIvbyRN2rFPVBO86",
   },
   {
@@ -73,7 +73,7 @@ const blogData = [
     date: "Aug 11, 2025",
     image: "https://img.youtube.com/vi/QctU9SDnYt4/maxresdefault.jpg",
     excerpt:
-      "Discipline is the foundation of success in any competitive examination.",
+      "Crack CLAT with Clarity – Step Into Your Law Career with Bibaswan!",
     link: "https://youtube.com/shorts/QctU9SDnYt4?si=6IRFb3XVcf_pibj0",
   },
 ];
